@@ -1,0 +1,265 @@
+
+
+header{
+    background: url('https://files.porsche.com/filestore/image/multimedia/none/875d5e3d-6763-47fe-bc52-809142d53274/svg/9bee0427-35f0-11ea-80c6-005056bbdc38/porsche-svg.svg') no-repeat center center/cover;
+    height: 529px;  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 20px 0px;
+     opacity:0.89; 
+}
+
+#des{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img1{
+    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBhHcnPWf7KP%25EGLf01SPYt1N9y5u4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
+    height: 561px;
+    left:0px;
+    width: 100%;
+    opacity:0.9;
+}
+
+#des ul{
+    margin: 20px 10px;
+    width: 800px;
+}
+
+#des ul li:hover{
+    font-size: 30px;
+}
+
+
+#des ul li{
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+
+#interior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11px 2px; 
+}
+
+
+#interior div{
+    border:2px solid black;
+     height: 408px;
+    width: 50%;
+    margin:20px 10px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px 0.13px,0px 0px 0px 0.17px;
+}
+
+#interior #int1{
+    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMy4iko69AFcLwMQjLVYn47uPi60E8mN%25nBhHcnPWf7KosEGL91r6u3QRmVOov4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
+}
+
+#interior div:hover{
+    box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
+}
+
+
+
+#interior #int2{
+    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMy4iko69AFcLwMQjLVYn47uPi60E8mN%25nBXHcnPWf7KosEGLylr6uaM5N9yvujdMGJVWL%25tFXu2LFGCg4YXyvE46jj0iD2GDcmw98gfUdGXVCofUQrQ9wASWTB8ZuuBeex5%2513XhQD9SXnAYyfIu7Pd%2556vmeAcRHhKN6Xjbe4ak62viqDd9rw2mYMuo8eXI2GYl5UtpsMFHnLNP51') no-repeat center center/cover;
+}
+
+#img2{
+    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBXHcnPWf7KP%25EGLf01SPYt1N9yIN4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
+    height: 550px;
+    left:0px;
+    width: 100%;
+    opacity:0.9;
+    margin-top: 3px;
+}
+
+
+#specs{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 397px;
+}
+
+#specs div{
+    /* border: 2px solid brown; */
+    height: 300px;
+    width: 100%;
+    margin: 20px 30px;
+    box-shadow: 10px 10px 10px 0.13px,0px 0px 0px 0.17px;
+}
+
+
+#card1{
+    background: url('https://files.porsche.com/filestore/image/multimedia/none/992-carrera-performance-engine/normal/63cff5e1-82f9-11ea-80c9-005056bbdc38;sM;twebp/porsche-normal.webp') no-repeat center center/cover;
+}
+
+#card2{
+    background: url('https://files.porsche.com/filestore/video/multimedia/none/992-carrera-comfort-chapter-slideshow-comfort/zoom/f56b53f3-80a9-11ea-80c9-005056bbdc38/porsche-image.jpg') no-repeat center center/cover;
+}
+
+#card3{
+    background: url('https://files.porsche.com/filestore/image/multimedia/none/992-carrera-performance-hps-01/normal/d1b71bbb-7f1f-11ea-80c9-005056bbdc38;sN;twebp;c1697;gc/porsche-normal.webp') no-repeat center center/cover;
+}
+#card4{
+    background: url('https://files.porsche.com/filestore/video/multimedia/none/992-carrera-comfort-chapter-slideshow-digital/zoom/1861dd89-80aa-11ea-80c9-005056bbdc38/porsche-image.jpg') no-repeat center center/cover;
+}
+
+#card1:hover{
+    box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
+}#card2:hover{
+    box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
+}#card3:hover{
+    box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
+}#card4:hover{
+    box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
+}
+
+#specs p{
+    position: relative;
+    top: 303px;
+    height: 108px;
+    font-family: 'Acme', sans-serif;
+}
+
+
+#img3{
+    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBNHcnPWf7KosEGL91r6uEcsN9yCs4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
+    height: 532px;
+    left:0px;
+    width: 100%;
+    opacity:0.9;
+}
+
+#aud_play{
+    width: 84px;
+    height: 87px;
+    background: url("LOGO/play.png")  no-repeat center center/cover;
+    position: relative;
+    top: 109px;
+    left: 32px;
+    z-index: 4;
+    margin: 7px 0px 7px 2px;
+    /* border: 2px solid black; */
+}
+#aud_pause{
+    width: 112px;
+    height: 91px;
+    background: url("LOGO/pause.png")  no-repeat center center/cover;
+    position: relative;
+    top: 24px;
+    left: 116px;
+    z-index: 4;
+    margin: -12px 0px 7px 12px;
+}
+
+#aud_play:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#aud_pause:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px){
+
+    
+header{
+    background: url('https://di-uploads-pod3.dealerinspire.com/porscheoffremont/uploads/2018/09/porsche-logo.jpg') no-repeat center center/cover;
+    height: 233px;  
+    width: 100%;
+    opacity:0.9;
+    padding: 0px;
+}
+
+h1{
+    font-size: 1.8em;
+}
+
+#img1{
+    height: 250px;
+    width: 100%;
+}
+    #interior{
+        flex-wrap: wrap;
+    }
+
+    #interior div{
+         height: 209px;
+        width: 100%;
+        margin:20px 10px;
+    }
+
+    #specs{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+/* 
+    #specs p{
+
+    } */
+
+    #specs #card1{
+        margin: 4px 10px 94px 10px;
+    }
+
+    #specs #card2{
+        margin: 32px 10px 94px 10px;
+    }
+
+    
+    #specs #card3{
+        margin: 22px 10px 94px 10px;
+    }
+
+    
+    #specs #card4{
+        margin: 4px 10px 94px 10px;
+    }
+    #img2{
+        height: 290px;
+        width: 100%;
+        margin-top: 8px;
+    }
+    #img3{
+        height: 226px;
+        width: 100%;
+        position: relative;
+        top: 1224px;
+        margin-top: 35px;
+    }
+  
+    #aud_play{
+        position: relative;
+        top: 1274px;
+    }
+
+    #aud_pause{
+        position: relative;
+        top: 1193px;
+        width: 114px;
+        height: 86px;
+    }
+
+}
