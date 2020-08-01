@@ -16,7 +16,7 @@ var color2 = ["https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT
 doc2.style.background = "url('" + color2[i2] + "')" + "no-repeat center center/cover";
 i2 = (i2 + 1) % color2.length;
 }
-setInterval(change_image2, 1500);
+setInterval(change_image2, 1200);
 
 var i3 = 0;
 function change_image3() {
@@ -25,7 +25,7 @@ var color3 = ["https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT
 doc3.style.background = "url('" + color3[i3] + "')" + "no-repeat center center/cover";
 i3 = (i3 + 1) % color3.length;
 }
-setInterval(change_image3, 1600);
+setInterval(change_image3, 1200);
 
 var i4 = 0;
 function change_int1() {
@@ -34,7 +34,7 @@ var color_int1= ["https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1
 doc4.style.background = "url('" + color_int1[i4] + "')" + "no-repeat center center/cover";
 i4 = (i4 + 1) % color_int1.length;
 }
-setInterval(change_int1, 1400);
+setInterval(change_int1, 1300);
 
 var i5 = 0;
 function change_int2() {
@@ -43,7 +43,7 @@ var color_int2 = ["https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi
 doc5.style.background = "url('" + color_int2[i5] + "')" + "no-repeat center center/cover";
 i5 = (i5 + 1) % color_int2.length;
 }
-setInterval(change_int2, 1400);
+setInterval(change_int2, 1300);
 
 function playAudio(){    
     sound.play(); 
