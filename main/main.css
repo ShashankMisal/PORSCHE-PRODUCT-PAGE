@@ -151,34 +151,26 @@ h1{
 #aud_play{
     width: 84px;
     height: 87px;
-    background: url("LOGO/play.png")  no-repeat center center/cover;
+    background: url("https://image.flaticon.com/icons/svg/1599/1599425.svg")  no-repeat center center/cover;
     position: relative;
-    top: 124px;
-    left: 32px;
-    z-index: 4;
+    top: 176px;
+    left: 116px;
+    /* z-index: 4; */
     margin: 7px 0px 7px 2px;
+    padding: 10px 10px;
+    visibility: hidden;
     /* border: 2px solid black; */
 }
 #aud_pause{
-    width: 112px;
-    height: 91px;
-    background: url("LOGO/pause.png")  no-repeat center center/cover;
+    width: 84px;
+    height: 87px;
+    background: url("https://image.flaticon.com/icons/svg/1599/1599426.svg")  no-repeat center center/cover;
     position: relative;
-    top: 38px;
+    top: 61px;
     left: 116px;
     z-index: 4;
-    margin: -12px 0px 7px 12px;
-}
-
-#aud_play:hover{
-    transform: rotate(360deg);
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-#aud_pause:hover{
-    transform: rotate(360deg);
-    transition-duration: 0.5s;
-    cursor: pointer;
+    margin: 7px 0px 7px 2px;
+    padding: 10px 10px;
 }
 
 
@@ -252,13 +244,15 @@ h1{
   
     #aud_play{
         position: relative;
-        top: 1274px;
+        top: 1357px;
+        width: 86px;
+        height: 89px;
     }
 
     #aud_pause{
         position: relative;
-        top: 1193px;
-        width: 114px;
+        top: 1241px;
+        width: 86px;
         height: 86px;
     }
 
