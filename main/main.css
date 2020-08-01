@@ -4,12 +4,8 @@ header{
     background: url('https://di-uploads-pod3.dealerinspire.com/porscheoffremont/uploads/2018/09/porsche-logo.jpg') no-repeat center center/cover;
     height: 529px;  
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     margin: auto;
     padding: 20px 0px;
-     /* opacity:0.9;  */
 }
 
 #des{
@@ -25,11 +21,8 @@ h1{
 }
 
 #img1{
-    /* background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBhHcnPWf7KP%25EGLf01SPYt1N9y5u4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover; */
     height: 561px;
-    left:0px;
     width: 100%;
-    /* opacity:0.9; */
 }
 
 #des ul{
@@ -77,21 +70,17 @@ h1{
 
 #img2{
     height: 550px;
-    left:0px;
     width: 100%;
-    /* opacity:0.9; */
     margin-top: 3px;
 }
 
 
 #specs{
-    /* border: 2px solid blue; */
     display: flex;
     height: 397px;
 }
 
 #specs div{
-    /* border: 2px solid brown; */
     height: 300px;
     width: 100%;
     margin: 20px 30px;
@@ -134,9 +123,7 @@ h1{
 
 #img3{
     height: 532px;
-    left:0px;
     width: 100%;
-    /* opacity:0.9; */
 }
 
 #aud_play{
@@ -146,11 +133,9 @@ h1{
     position: relative;
     top: 176px;
     left: 116px;
-    /* z-index: 4; */
     margin: 7px 0px 7px 2px;
     padding: 10px 10px;
     visibility: hidden;
-    /* border: 2px solid black; */
 }
 #aud_pause{
     width: 87px;
@@ -159,7 +144,6 @@ h1{
     position: relative;
     top: 61px;
     left: 116px;
-    z-index: 4;
     margin: 7px 0px 7px 2px;
     padding: 10px 10px;
 }
