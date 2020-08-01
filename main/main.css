@@ -25,7 +25,7 @@ h1{
 }
 
 #img1{
-    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBhHcnPWf7KP%25EGLf01SPYt1N9y5u4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
+    /* background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBhHcnPWf7KP%25EGLf01SPYt1N9y5u4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover; */
     height: 561px;
     left:0px;
     width: 100%;
@@ -68,22 +68,14 @@ h1{
     box-shadow: 10px 10px 10px 0.13px,0px 0px 0px 0.17px;
 }
 
-#interior #int1{
-    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMy4iko69AFcLwMQjLVYn47uPi60E8mN%25nBhHcnPWf7KosEGL91r6u3QRmVOov4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
-}
+
 
 #interior div:hover{
     box-shadow:20px 20px 20px 1.13px,0px 0px 0px 0.17px ;
 }
 
 
-
-#interior #int2{
-    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMy4iko69AFcLwMQjLVYn47uPi60E8mN%25nBXHcnPWf7KosEGLylr6uaM5N9yvujdMGJVWL%25tFXu2LFGCg4YXyvE46jj0iD2GDcmw98gfUdGXVCofUQrQ9wASWTB8ZuuBeex5%2513XhQD9SXnAYyfIu7Pd%2556vmeAcRHhKN6Xjbe4ak62viqDd9rw2mYMuo8eXI2GYl5UtpsMFHnLNP51') no-repeat center center/cover;
-}
-
 #img2{
-    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBXHcnPWf7KP%25EGLf01SPYt1N9yIN4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
     height: 550px;
     left:0px;
     width: 100%;
@@ -141,7 +133,6 @@ h1{
 
 
 #img3{
-    background: url('https://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJMyDiko69AFcLwMQjLVYn47uPi60JemN%25nBNHcnPWf7KosEGL91r6uEcsN9yCs4w3jVqko6S0bu1CWaVDuW6X2xya3jrxmqqctLD6L8T7wG2Epk6a0X%25EpnRnw7KNbdMG5VVMhhUv1szaHnLwNaIKy3EeVl9k1vmjThK8gfHP4maqihxOFmDjtJLkwR7DTyoV%25GhaeD6yQvpCYZoWfIu49vs') no-repeat center center/cover;
     height: 532px;
     left:0px;
     width: 100%;
@@ -149,7 +140,7 @@ h1{
 }
 
 #aud_play{
-    width: 84px;
+    width: 87px;
     height: 87px;
     background: url("https://image.flaticon.com/icons/svg/1599/1599425.svg")  no-repeat center center/cover;
     position: relative;
@@ -162,7 +153,7 @@ h1{
     /* border: 2px solid black; */
 }
 #aud_pause{
-    width: 84px;
+    width: 87px;
     height: 87px;
     background: url("https://image.flaticon.com/icons/svg/1599/1599426.svg")  no-repeat center center/cover;
     position: relative;
@@ -178,7 +169,6 @@ h1{
 
     
 header{
-    background: url('https://di-uploads-pod3.dealerinspire.com/porscheoffremont/uploads/2018/09/porsche-logo.jpg') no-repeat center center/cover;
     height: 233px;  
     width: 100%;
     opacity:0.9;
@@ -207,10 +197,6 @@ h1{
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-/* 
-    #specs p{
-
-    } */
 
     #specs #card1{
         margin: 4px 10px 94px 10px;
