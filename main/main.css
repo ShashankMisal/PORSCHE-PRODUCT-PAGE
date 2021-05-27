@@ -41,7 +41,8 @@ header{
 
 
 #header-img{
-    height: 9rem;
+    height: 7rem;
+    padding: 10px;
     max-width: 200px;
     align-self: flex-start;
     transition: transform 0.4s;
