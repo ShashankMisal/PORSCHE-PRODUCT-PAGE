@@ -4,18 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./main/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/*" href="https://image.flaticon.com/icons/svg/974/974602.svg" />
-    <title>PORSCHE-911</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <a href="https://www.porsche.com/">
-        <header>
-        </header>
-    </a>
+
+
+    <header id="header">
+
+        <a href="https://www.porsche.com/"> <img
+                src="http://www.pngmart.com/files/5/Porsche-Logo-PNG-Pic.png" id="header-img" alt=""></a>
+
+        <nav id="nav-bar">
+
+            <ul>
+                <li><a class="nav-link" href="#specification">SPECIFICATIONS</a></li>
+                <li><a class="nav-link" href="#videoSec">VIDEO</a></li>
+                <li><a class="nav-link" href="#interior">INTERIOR</a></li>
+            </ul>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <h1 id="mainHeading">PORSCHE 911</h1>
+
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter Email Address" required />
+        <input id="submit" type="submit" value="BOOK NOW" class="btn" />
+    </form>
+
+
     <section id=des>
         <ul>
             <li>Power athlete. Design icon. Everyday hero. The 911 combines the power of a sports car with great
@@ -29,24 +54,10 @@
         </ul>
     </section>
 
-    <section id=img1>
-    </section>
-
-    <h1>INTERIOR</h1>
-    <div id=interior>
-
-        <div id=int1>
-        </div>
-
-        <div id=int2>
-        </div>
-
-    </div>
-
     <section id=img2>
     </section>
 
-    <h1>SPECIFICATIONS</h1>
+    <h1 id="specification">SPECIFICATIONS</h1>
     <section id="specs">
         <div id="card1">
 
@@ -70,20 +81,50 @@
                 streaming – the 911 offers you a wealth of options for digital networking.</p>
         </div>
     </section>
-
-    <div id="aud_play" onclick="pauseAudio()">
-    </div>
-
-    <div id="aud_pause" onclick="playAudio()">
-    </div>
-
-
     <section id=img3>
     </section>
 
 
-    <script src="main/main.js"></script>
+    <h1>INTERIOR</h1>
+    <div id=interior>
 
+        <div id=int1>
+        </div>
+
+        <div id=int2>
+        </div>
+
+    </div>
+
+    <div id="videoSec">
+        <iframe id="video" width="560" src="https://www.youtube.com/embed/92sXWVxRr0g" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <h2> FEEL THE MAGIC</h1>
+    </div>
+
+
+    <section id=img1>
+           
+        <div id="aud_play" onclick="pauseAudio()">
+        </div>
+        
+        <div id="aud_pause" onclick="playAudio()">
+        </div>
+    </section>
+        
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>All Images are used for projects purpose only.</span>
+        <span>Credits for Pics and Videos :<strong><a href="https://www.porsche.com/"> Porsche.com</a></strong></span>
+    </footer>
+
+    <script src="./main/main.js"></script>
 </body>
 
 </html>
